@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sublessons",
+      "handler": "sublesson.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sublessons/count",
+      "handler": "sublesson.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sublessons/:id",
+      "handler": "sublesson.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sublessons",
+      "handler": "sublesson.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sublessons/:id",
+      "handler": "sublesson.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sublessons/:id",
+      "handler": "sublesson.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

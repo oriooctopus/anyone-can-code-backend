@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sublessons",
+  "info": {
+    "name": "Sublesson"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "lesson": {
+      "model": "lesson"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
