@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sublesson-challenges",
+      "handler": "sublesson-challenge.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sublesson-challenges/count",
+      "handler": "sublesson-challenge.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sublesson-challenges/:id",
+      "handler": "sublesson-challenge.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sublesson-challenges",
+      "handler": "sublesson-challenge.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sublesson-challenges/:id",
+      "handler": "sublesson-challenge.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sublesson-challenges/:id",
+      "handler": "sublesson-challenge.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

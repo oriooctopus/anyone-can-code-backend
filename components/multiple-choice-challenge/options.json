@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_multiple_choice_challenge_options",
+  "info": {
+    "name": "Options",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext",
+      "required": true,
+      "unique": true
+    },
+    "isCorrect": {
+      "type": "boolean"
+    }
+  }
+}

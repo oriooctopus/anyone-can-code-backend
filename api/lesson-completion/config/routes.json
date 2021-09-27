@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/lesson-completions",
+      "handler": "lesson-completion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lesson-completions/count",
+      "handler": "lesson-completion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lesson-completions/:id",
+      "handler": "lesson-completion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/lesson-completions",
+      "handler": "lesson-completion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/lesson-completions/:id",
+      "handler": "lesson-completion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/lesson-completions/:id",
+      "handler": "lesson-completion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

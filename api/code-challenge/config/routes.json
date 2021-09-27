@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/code-challenges",
+      "handler": "code-challenge.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/code-challenges/count",
+      "handler": "code-challenge.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/code-challenges/:id",
+      "handler": "code-challenge.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/code-challenges",
+      "handler": "code-challenge.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/code-challenges/:id",
+      "handler": "code-challenge.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/code-challenges/:id",
+      "handler": "code-challenge.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

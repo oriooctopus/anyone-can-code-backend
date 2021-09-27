@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sublesson_challenges_test_2",
+  "info": {
+    "name": "SublessonChallenge",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "challenge": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sublessonchallenge.challenge",
+      "required": true
+    },
+    "minimumFrequencyPreference": {
+      "type": "enumeration",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "difficulty": {
+      "type": "enumeration",
+      "enum": [
+        "easy",
+        "medium",
+        "hard"
+      ]
+    },
+    "sublesson": {
+      "model": "sublesson",
+      "via": "sublesson_challenges_test"
+    },
+    "internalLabel": {
+      "type": "string",
+      "private": true,
+      "required": true
+    }
+  }
+}

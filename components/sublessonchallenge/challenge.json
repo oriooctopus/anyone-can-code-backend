@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_sublessonchallenge_challenges",
+  "info": {
+    "name": "Challenge",
+    "icon": "yin-yang",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "codeChallenge": {
+      "model": "code-challenge"
+    },
+    "multipleChoiceChallenge": {
+      "model": "multiple-choice-challenge"
+    }
+  }
+}

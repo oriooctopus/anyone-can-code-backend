@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lesson_completions",
+  "info": {
+    "name": "LessonCompletion"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "confidence": {
+      "type": "enumeration",
+      "enum": [
+        "noUnderstanding",
+        "largeGaps",
+        "understoodButWithGaps",
+        "completeUnderstanding"
+      ]
+    }
+  }
+}

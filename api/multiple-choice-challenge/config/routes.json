@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/multiple-choice-challenges",
+      "handler": "multiple-choice-challenge.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/multiple-choice-challenges/count",
+      "handler": "multiple-choice-challenge.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/multiple-choice-challenges/:id",
+      "handler": "multiple-choice-challenge.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/multiple-choice-challenges",
+      "handler": "multiple-choice-challenge.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/multiple-choice-challenges/:id",
+      "handler": "multiple-choice-challenge.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/multiple-choice-challenges/:id",
+      "handler": "multiple-choice-challenge.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "multiple_choice_challenges",
+  "info": {
+    "name": "MultipleChoiceChallenge",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "multiple-choice-challenge.options"
+    },
+    "prompt": {
+      "type": "richtext",
+      "required": true,
+      "unique": true
+    },
+    "InternalLabel": {
+      "type": "string",
+      "private": true
+    },
+    "canSelectMultipleOptions": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
