@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "sublesson_challenges_test_2",
+  "collectionName": "sublesson_challenges",
   "info": {
     "name": "SublessonChallenge",
     "description": ""
