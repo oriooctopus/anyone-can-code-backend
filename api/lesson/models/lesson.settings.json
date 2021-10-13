@@ -37,7 +37,16 @@
       "required": true
     },
     "sublessons": {
+      "via": "lesson",
       "collection": "sublesson"
+    },
+    "isHard": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean"
     }
   }
 }

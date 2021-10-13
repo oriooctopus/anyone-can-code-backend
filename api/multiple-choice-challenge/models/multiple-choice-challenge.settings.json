@@ -29,6 +29,16 @@
     "canSelectMultipleOptions": {
       "type": "boolean",
       "default": false
+    },
+    "challengeMeta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "challenge.challenge",
+      "required": true
+    },
+    "useMarkdownForOptionsText": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

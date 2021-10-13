@@ -35,8 +35,8 @@
       ]
     },
     "sublesson": {
-      "model": "sublesson",
-      "via": "sublesson_challenges_test"
+      "via": "sublessonChallenges",
+      "model": "sublesson"
     },
     "internalLabel": {
       "type": "string",

@@ -12,17 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "slug": {
-      "type": "string"
-    },
-    "lesson": {
-      "model": "lesson"
-    },
     "name": {
       "type": "string",
       "required": true,
-      "unique": true,
-      "default": "A variable is like a label"
+      "unique": false
     },
     "challenges": {
       "type": "component",
@@ -35,12 +28,17 @@
       "component": "sublesson.sublesson-descriptions",
       "required": true
     },
-    "sublesson_challenges": {
-      "collection": "sublesson-challenge"
-    },
-    "sublesson_challenges_test": {
+    "sublessonChallenges": {
       "via": "sublesson",
       "collection": "sublesson-challenge"
+    },
+    "lesson": {
+      "via": "sublessons",
+      "model": "lesson"
+    },
+    "InternalMaintenanceNotes": {
+      "type": "text",
+      "private": true
     }
   }
 }

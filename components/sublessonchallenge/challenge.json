@@ -12,6 +12,16 @@
     },
     "multipleChoiceChallenge": {
       "model": "multiple-choice-challenge"
+    },
+    "MinimumChallengeFrequency": {
+      "type": "enumeration",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "required": true,
+      "default": "medium"
     }
   }
 }

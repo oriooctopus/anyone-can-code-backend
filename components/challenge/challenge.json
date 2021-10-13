@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_challenge_challenges",
+  "info": {
+    "name": "challenge",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "difficulty": {
+      "type": "enumeration",
+      "enum": [
+        "easy",
+        "medium",
+        "hard"
+      ],
+      "default": "medium",
+      "required": true
+    }
+  }
+}
