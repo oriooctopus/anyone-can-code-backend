@@ -63,6 +63,16 @@
       },
       "component": "challenge.challenge",
       "required": true
+    },
+    "Hint": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "code-challenge.hint"
     }
   }
 }

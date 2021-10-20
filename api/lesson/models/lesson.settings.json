@@ -47,6 +47,14 @@
         }
       },
       "type": "boolean"
+    },
+    "internalNotes": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
     }
   }
 }

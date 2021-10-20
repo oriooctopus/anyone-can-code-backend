@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_code_challenge_hints",
+  "info": {
+    "name": "Hint",
+    "icon": "broadcast-tower",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "recommendTimeBeforeViewing": {
+      "type": "decimal"
+    }
+  }
+}

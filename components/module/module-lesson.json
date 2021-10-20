@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_module_module_lessons",
+  "info": {
+    "name": "ModuleLesson",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lesson": {
+      "model": "lesson"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_module_row_module_row",
+  "info": {
+    "name": "ModuleRow",
+    "icon": "network-wired",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Lesson": {
+      "type": "component",
+      "repeatable": true,
+      "component": "module.module-lesson"
+    }
+  }
+}

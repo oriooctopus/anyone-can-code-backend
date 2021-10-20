@@ -10,7 +10,7 @@
     "text": {
       "type": "richtext",
       "required": true,
-      "unique": true
+      "unique": false
     },
     "isCorrect": {
       "type": "boolean"

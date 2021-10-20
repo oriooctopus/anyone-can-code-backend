@@ -16,6 +16,9 @@
       ],
       "default": "medium",
       "required": true
+    },
+    "lessonOnly": {
+      "type": "boolean"
     }
   }
 }

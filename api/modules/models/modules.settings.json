@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "modules",
+  "collectionName": "module",
   "info": {
-    "name": "Modules",
+    "name": "Module",
     "description": ""
   },
   "options": {
@@ -27,6 +27,16 @@
       },
       "type": "string",
       "required": true
+    },
+    "ModuleRows": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "module.module-rows"
     }
   }
 }

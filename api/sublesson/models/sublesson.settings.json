@@ -39,6 +39,14 @@
     "InternalMaintenanceNotes": {
       "type": "text",
       "private": true
+    },
+    "persistCodeBetweenChallenges": {
+      "type": "boolean",
+      "default": false
+    },
+    "minimizeEditor": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
