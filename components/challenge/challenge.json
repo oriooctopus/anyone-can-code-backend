@@ -12,7 +12,8 @@
       "enum": [
         "easy",
         "medium",
-        "hard"
+        "hard",
+        "extraHard"
       ],
       "default": "medium",
       "required": true

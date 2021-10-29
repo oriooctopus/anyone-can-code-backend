@@ -46,7 +46,7 @@
     "InternalLabel": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "string",
@@ -73,6 +73,15 @@
         }
       },
       "component": "code-challenge.hint"
+    },
+    "internalNotes": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "text",
+      "private": true
     }
   }
 }

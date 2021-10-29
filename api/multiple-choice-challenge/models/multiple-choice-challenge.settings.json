@@ -15,7 +15,9 @@
     "options": {
       "type": "component",
       "repeatable": true,
-      "component": "multiple-choice-challenge.options"
+      "component": "multiple-choice-challenge.options",
+      "min": 0,
+      "required": true
     },
     "prompt": {
       "type": "richtext",

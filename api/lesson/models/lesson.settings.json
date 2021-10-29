@@ -55,6 +55,10 @@
         }
       },
       "type": "text"
+    },
+    "module": {
+      "via": "lessons",
+      "model": "modules"
     }
   }
 }
