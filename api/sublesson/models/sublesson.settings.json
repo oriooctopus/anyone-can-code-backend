@@ -28,10 +28,6 @@
       "component": "sublesson.sublesson-descriptions",
       "required": true
     },
-    "sublessonChallenges": {
-      "via": "sublesson",
-      "collection": "sublesson-challenge"
-    },
     "lesson": {
       "via": "sublessons",
       "model": "lesson"
@@ -47,6 +43,10 @@
     "minimizeEditor": {
       "type": "boolean",
       "default": false
+    },
+    "syntaxEntry": {
+      "model": "syntax-entry",
+      "via": "sublesson"
     }
   }
 }

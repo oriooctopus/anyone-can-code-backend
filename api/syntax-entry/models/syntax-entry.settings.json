@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "syntax_entries",
+  "info": {
+    "name": "SyntaxEntry"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Entry": {
+      "type": "richtext",
+      "required": true
+    },
+    "internalLabel": {
+      "type": "string",
+      "private": true,
+      "required": true
+    },
+    "sublesson": {
+      "via": "syntaxEntry",
+      "model": "sublesson"
+    }
+  }
+}

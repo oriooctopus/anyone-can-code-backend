@@ -6,6 +6,12 @@ module.exports = {
     getSublessonBySlugs(lessonSlug: String!, sublessonSlug: String!, id: ID!): Sublesson!,
   `,
   resolver: {
+    // sublesson: {
+    //   test: {
+    //     resolver: () => 123,
+    //     resolverOf: "application::sublesson.sublesson.find",
+    //   },
+    // },
     Query: {
       getSublessonBySlugs: {
         description:

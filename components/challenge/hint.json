@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_challenge_hints",
+  "info": {
+    "name": "Hint",
+    "icon": "star-half",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "recommendedTimeBeforeViewing": {
+      "type": "decimal"
+    }
+  }
+}

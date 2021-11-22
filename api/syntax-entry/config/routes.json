@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/sublesson-challenges",
-      "handler": "sublesson-challenge.find",
+      "path": "/syntax-entries",
+      "handler": "syntax-entry.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/sublesson-challenges/count",
-      "handler": "sublesson-challenge.count",
+      "path": "/syntax-entries/count",
+      "handler": "syntax-entry.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/sublesson-challenges/:id",
-      "handler": "sublesson-challenge.findOne",
+      "path": "/syntax-entries/:id",
+      "handler": "syntax-entry.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/sublesson-challenges",
-      "handler": "sublesson-challenge.create",
+      "path": "/syntax-entries",
+      "handler": "syntax-entry.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/sublesson-challenges/:id",
-      "handler": "sublesson-challenge.update",
+      "path": "/syntax-entries/:id",
+      "handler": "syntax-entry.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/sublesson-challenges/:id",
-      "handler": "sublesson-challenge.delete",
+      "path": "/syntax-entries/:id",
+      "handler": "syntax-entry.delete",
       "config": {
         "policies": []
       }

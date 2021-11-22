@@ -53,7 +53,7 @@
       "private": true,
       "required": true
     },
-    "ChallengeMeta": {
+    "challengeMeta": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -62,9 +62,9 @@
         }
       },
       "component": "challenge.challenge",
-      "required": true
+      "required": false
     },
-    "Hint": {
+    "HintOld": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {
@@ -72,7 +72,8 @@
           "localized": true
         }
       },
-      "component": "code-challenge.hint"
+      "component": "code-challenge.hint",
+      "required": false
     },
     "internalNotes": {
       "pluginOptions": {
@@ -82,6 +83,17 @@
       },
       "type": "text",
       "private": true
+    },
+    "hints": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "challenge.hint",
+      "required": false
     }
   }
 }
