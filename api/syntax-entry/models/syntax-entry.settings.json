@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "syntax_entries",
   "info": {
-    "name": "SyntaxEntry"
+    "name": "SyntaxEntry",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,18 +12,32 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Entry": {
+    "content": {
       "type": "richtext",
       "required": true
     },
-    "internalLabel": {
+    "name": {
       "type": "string",
-      "private": true,
+      "private": false,
       "required": true
     },
     "sublesson": {
       "via": "syntaxEntry",
       "model": "sublesson"
+    },
+    "InternalNotes": {
+      "type": "text",
+      "private": true
+    },
+    "lesson": {
+      "model": "lesson",
+      "via": "syntaxEntry"
+    },
+    "maxWidth": {
+      "type": "integer",
+      "default": 0,
+      "required": false,
+      "unique": false
     }
   }
 }

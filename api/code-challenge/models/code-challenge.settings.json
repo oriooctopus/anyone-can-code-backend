@@ -94,6 +94,15 @@
       },
       "component": "challenge.hint",
       "required": false
+    },
+    "getStartingCodeFromPreviousChallenge": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": false
     }
   }
 }

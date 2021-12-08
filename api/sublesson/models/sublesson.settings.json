@@ -36,17 +36,13 @@
       "type": "text",
       "private": true
     },
-    "persistCodeBetweenChallenges": {
-      "type": "boolean",
-      "default": false
-    },
     "minimizeEditor": {
       "type": "boolean",
       "default": false
     },
     "syntaxEntry": {
-      "model": "syntax-entry",
-      "via": "sublesson"
+      "via": "sublesson",
+      "model": "syntax-entry"
     }
   }
 }

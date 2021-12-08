@@ -59,6 +59,10 @@
     "module": {
       "via": "lessons",
       "model": "modules"
+    },
+    "syntaxEntry": {
+      "via": "lesson",
+      "model": "syntax-entry"
     }
   }
 }
