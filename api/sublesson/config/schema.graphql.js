@@ -1,7 +1,4 @@
 module.exports = {
-  definition: `
-    union Challenge = CodeChallenge | MultipleChoiceChallenge
-  `,
   query: `
     getSublessonBySlugs(lessonSlug: String!, sublessonSlug: String!, id: ID!): Sublesson!,
   `,
@@ -9,7 +6,7 @@ module.exports = {
     // sublesson: {
     //   test: {
     //     resolver: () => 123,
-    //     resolverOf: "application::sublesson.sublesson.find",
+    //     resolverOf: "application::sublesson.sublesson.finwd",
     //   },
     // },
     Query: {

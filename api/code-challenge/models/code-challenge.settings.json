@@ -103,6 +103,10 @@
       },
       "type": "boolean",
       "default": false
+    },
+    "lesson": {
+      "model": "lesson",
+      "via": "code_challenge"
     }
   }
 }

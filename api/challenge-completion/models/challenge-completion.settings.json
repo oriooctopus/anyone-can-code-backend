@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "lesson_completions",
+  "collectionName": "challenge_completions",
   "info": {
-    "name": "LessonCompletion",
-    "description": ""
+    "name": "ChallengeCompletion"
   },
   "options": {
     "increments": true,
@@ -12,8 +11,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "lesson": {
-      "model": "lesson"
+    "code_challenge": {
+      "model": "code-challenge"
+    },
+    "multiple_choice_challenge": {
+      "model": "multiple-choice-challenge"
     },
     "users_permissions_user": {
       "plugin": "users-permissions",

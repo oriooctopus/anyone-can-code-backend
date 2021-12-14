@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/challenge-completions",
+      "handler": "challenge-completion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/challenge-completions/count",
+      "handler": "challenge-completion.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/challenge-completions/:id",
+      "handler": "challenge-completion.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/challenge-completions",
+      "handler": "challenge-completion.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/challenge-completions/:id",
+      "handler": "challenge-completion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/challenge-completions/:id",
+      "handler": "challenge-completion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
