@@ -104,9 +104,13 @@
       "type": "boolean",
       "default": false
     },
-    "lesson": {
-      "model": "lesson",
-      "via": "code_challenge"
+    "sharedEvaluationCode": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }

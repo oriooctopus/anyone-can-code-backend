@@ -64,10 +64,6 @@
       "via": "lesson",
       "model": "syntax-entry"
     },
-    "code_challenge": {
-      "via": "lesson",
-      "model": "code-challenge"
-    },
     "multiple_choice_challenge": {
       "via": "lesson",
       "model": "multiple-choice-challenge"
