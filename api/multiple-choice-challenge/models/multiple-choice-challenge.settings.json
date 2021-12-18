@@ -41,10 +41,6 @@
     "useMarkdownForOptionsText": {
       "type": "boolean",
       "default": false
-    },
-    "lesson": {
-      "model": "lesson",
-      "via": "multiple_choice_challenge"
     }
   }
 }

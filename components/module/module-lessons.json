@@ -1,8 +1,8 @@
 {
   "collectionName": "components_module_module_lessons",
   "info": {
-    "name": "ModuleLesson",
-    "icon": "american-sign-language-interpreting",
+    "name": "ModuleLessons",
+    "icon": "atom",
     "description": ""
   },
   "options": {},

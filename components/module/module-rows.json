@@ -6,11 +6,5 @@
     "description": ""
   },
   "options": {},
-  "attributes": {
-    "Lesson": {
-      "type": "component",
-      "repeatable": true,
-      "component": "module.module-lesson"
-    }
-  }
+  "attributes": {}
 }

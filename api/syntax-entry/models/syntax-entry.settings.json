@@ -30,8 +30,8 @@
       "private": true
     },
     "lesson": {
-      "model": "lesson",
-      "via": "syntaxEntry"
+      "via": "syntaxEntry",
+      "model": "lesson"
     },
     "maxWidth": {
       "type": "integer",

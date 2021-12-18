@@ -64,9 +64,15 @@
       "via": "lesson",
       "model": "syntax-entry"
     },
-    "multiple_choice_challenge": {
-      "via": "lesson",
-      "model": "multiple-choice-challenge"
+    "externalResources": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "external-resource.external-resource"
     }
   }
 }

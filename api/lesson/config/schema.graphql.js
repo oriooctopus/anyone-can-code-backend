@@ -13,32 +13,25 @@ module.exports = {
             params: { _currentLessonId: currentLessonId },
           } = context;
 
-          const currentLesson = await strapi.services.lesson.findOne({
-            id: currentLessonId,
+          const currentModule = await strapi.services.modules.findOne({
+            id: 1,
           });
 
-          if (!currentLesson) {
+          const lessons = currentModule.ModuleLessons;
+
+          const currentLessonIndex = lessons.findIndex(
+            ({ lesson: { id } }) => id === currentLessonId
+          );
+
+          if (currentLessonIndex === -1) {
             throw new Error(`Lesson of id ${currentLessonId} not found`);
-          } else if (!currentLesson.module) {
-            throw new Error(
-              `Lesson of id ${currentLessonId} does not belong to a module`
-            );
           }
-
-          const lessons = await strapi.services.lesson.find({
-            "module.id": 1,
-          });
-
-          const currentLessonIndex = lessons.findIndex((lesson) => {
-            console.log("current lesson", lesson.id);
-            return lesson.id === currentLessonId;
-          });
 
           if (currentLessonIndex === lessons.length - 1) {
             return null;
           }
 
-          return lessons[currentLessonIndex + 1].slug;
+          return lessons[currentLessonIndex + 1].lesson.slug;
         },
       },
     },

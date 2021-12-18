@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_external_resource_external_resources",
+  "info": {
+    "name": "ExternalResource",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "text",
+        "video"
+      ],
+      "required": true
+    }
+  }
+}
