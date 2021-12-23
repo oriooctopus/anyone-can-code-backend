@@ -13,6 +13,7 @@
   "devDependencies": {},
   "dependencies": {
     "knex": "0.21.18",
+    "pg": "^8.7.1",
     "sqlite3": "5.0.0",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
@@ -25,7 +26,7 @@
     "strapi-plugin-import-export-content": "^0.4.1",
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-users-permissions": "3.6.8",
-    "strapi-utils": "3.6.8"
+    "strapi-utils": "^3.6.8"
   },
   "author": {
     "name": "A Strapi developer"

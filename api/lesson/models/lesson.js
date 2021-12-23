@@ -1,6 +1,6 @@
 "use strict";
 
-const { enforceSublessonChallengeSortOrder } = require("./sublesson.utils");
+// const { enforceSublessonChallengeSortOrder } = require("./sublesson.utils");
 
 /**
  * Read the documentation (https://strapi.io/documentation/developer-docs/latest/development/backend-customization.html#lifecycle-hooks)
